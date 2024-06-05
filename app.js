@@ -9,11 +9,11 @@ app.use(cors());
 const port = process.env.PORT || 3000;
 
 app.get('/hello', (req, res) => {
-    res.send("Hi World")
+    res.send("Hi World!!!")
 });
 
 app.get('/bye', (req, res) => {
-    res.send("Goodbye World");
+    res.send("Goodbye World!!!");
 });
 
 app.listen(port, () => {
