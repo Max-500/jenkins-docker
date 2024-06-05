@@ -12,10 +12,10 @@ app.get('/hello', (req, res) => {
     res.send("Hello World")
 });
 
+// Modifica la línea de respuesta para verificar el cambio
 app.get('/bye', (req, res) => {
-    res.send("Bye World");
+    res.send("Goodbye World");
 });
-
 
 app.listen(port, () => {
     console.log(`SERVER RUNNING IN http://localhost:${port}.`);
