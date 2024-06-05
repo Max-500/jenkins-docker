@@ -12,7 +12,6 @@ app.get('/hello', (req, res) => {
     res.send("Hi World")
 });
 
-// Modifica la línea de respuesta para verificar el cambio
 app.get('/bye', (req, res) => {
     res.send("Goodbye World");
 });
