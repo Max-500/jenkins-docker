@@ -9,7 +9,7 @@ app.use(cors());
 const port = process.env.PORT || 3000;
 
 app.get('/hello', (req, res) => {
-    res.send("Hello World")
+    res.send("Hi World")
 });
 
 // Modifica la línea de respuesta para verificar el cambio
